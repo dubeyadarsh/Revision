@@ -1,6 +1,6 @@
 https://leetcode.com/problems/sliding-window-maximum/description/
 
-class Solution {
+**class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         ArrayDeque<Integer> deque=new ArrayDeque<>();
             // Deque<Integer> deque=new LinkedList<>();
@@ -25,7 +25,7 @@ class Solution {
         ans[i-k]=nums[deque.peekFirst()];	       
 	    return ans;
     }
-}                                                                         
+}**                                                                         
 ![photo_6309663766983325280_y](https://github.com/dubeyadarsh/Revision/assets/75479397/0ea02ce3-69ed-42b0-8385-a028127c9f5a)
 
 
