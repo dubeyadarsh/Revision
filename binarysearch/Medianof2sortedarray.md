@@ -1,9 +1,14 @@
 https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+
 // Median hamesha mid me hota hai,toh dono array ko merge karne pe joh mid me aayega woh median hoga
 // but it's not that easy, 
 // We can find the right partition of left and right array like hume 
+
 ![image](https://github.com/dubeyadarsh/Revision/assets/75479397/13982853-48c7-40f1-b202-69525a85b917)
-![gg](https://github.com/dubeyadarsh/Revision/assets/75479397/93e8576c-29da-4308-93b3-5d622fe99896)
+![image](https://github.com/dubeyadarsh/Revision/assets/75479397/766db6fa-be6b-4bf0-a42a-4c6fc7131959)
+
+![image](https://github.com/dubeyadarsh/Revision/assets/75479397/9cda0ba9-5689-46e7-8168-d77463670cc9)
+
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
