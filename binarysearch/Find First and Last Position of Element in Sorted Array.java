@@ -1,7 +1,7 @@
 
 
 // First approach is not optmised for [7,7,7,7,7,7] . for this testcase, time complexity will become O(n).
-//  So instead of this we could use binary search 2 times .
+//  So instead of this we could use binary search 2 times .(as u can see 2nd code)
   
   
   1)                  class Solution {
