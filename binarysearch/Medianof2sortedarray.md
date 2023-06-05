@@ -9,9 +9,16 @@ https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 
 ![image](https://github.com/dubeyadarsh/Revision/assets/75479397/9cda0ba9-5689-46e7-8168-d77463670cc9)
 
-int
-class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+
+
+class Solution 
+
+{
+
+    public double findMedianSortedArrays(int[] nums1, int[] nums2)
+    
+    {
         int n1=nums1.length;
         int n2=nums2.length;
         if(n1>n2){
